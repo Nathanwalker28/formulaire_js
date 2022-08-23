@@ -50,6 +50,7 @@ section form .field_input{
     border: 1px solid #000;
     width: 40vw;
     text-transform: capitalize;
+    word-break: break-all;
 }
 
 .information span{
