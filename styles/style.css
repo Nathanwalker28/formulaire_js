@@ -1,7 +1,7 @@
 body{
     margin: 0; padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
     background: hsl(30, 38%, 92%);
     font-size: 1.2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -65,6 +65,7 @@ section form .field_input{
 @media screen and (max-width : 500px) {
     main {
         flex-direction: column;
+        height: auto;
     }
     section form {
         width: 90vw;
