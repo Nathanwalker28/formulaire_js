@@ -1,0 +1,84 @@
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: hsl(30, 38%, 92%);
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(158, 36%, 37%) ;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+section form{
+    border: 1px solid #000;
+    width: 40vw;
+}
+
+section form .field_input{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: self-end;
+}
+
+.field_input input {
+    padding-top: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 1.2em;
+    color: hsla(160, 6%, 19%, 0.726) ;
+    background: hsl(30, 38%, 92%);
+    width: 60%;
+}
+
+.field_input input:focus {
+    border-bottom: 1px solid #fff;
+}
+
+.information {
+    border: 1px solid #000;
+    width: 40vw;
+    text-transform: capitalize;
+}
+
+.information span{
+    color: hsla(160, 6%, 19%, 0.726);
+}
+
+.information .field_show {
+    margin: 40px 10px 0px 10px;
+    text-align: left;
+}
+
+
+@media screen and (max-width : 500px) {
+    main {
+        flex-direction: column;
+    }
+    section form {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .information {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
